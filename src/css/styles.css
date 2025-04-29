@@ -1,0 +1,84 @@
+
+:root{
+    --color-primary-1: #0059ff; 
+    --color-primary-2: #00c3ff;
+
+    --color-neutry-1: rgba(37, 37, 37, 0.979);
+    --color-neutry-2: rgb(231, 231, 231);
+    --color-neutry-3: rgb(54, 54, 54);
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(60deg, var(--color-primary-1),   var(--color-primary-2));
+    
+}
+
+.calculator{
+    background-color: var(--color-neutry-1);
+    color: var(--color-neutry-2);
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(85, 85, 85);
+}
+
+.input-container{
+    margin: 10px;
+}
+.input-group{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-group input
+{
+    background-color: var(--color-neutry-3) ;
+    padding: 5px;
+    border: 1px solid var(--color-primary-2);
+    border-radius: 3px;
+    color: var(--color-neutry-2);
+    width: 100px;
+    text-align: center;
+
+
+
+}
+.input-group input:focus-visible{
+    outline: transparent;
+}
+.input-group span{
+    background-color: var(--color-neutry-3);
+    font-size: 16px;
+    padding: 0px 10px;
+    
+}
+.input-group p{
+    background: linear-gradient(120deg, var(--color-primary-2), var(--color-primary-1));
+    padding: 5px;
+    border-radius: 3px;
+    width: 100px;
+    font-weight: 600;
+    color: white;
+}
+button{
+    background: linear-gradient(120deg, var(--color-primary-2), var(--color-primary-1));
+    color: white;
+    width: 92%;
+    height: 35px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+     
+}
