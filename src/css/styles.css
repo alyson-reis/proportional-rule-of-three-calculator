@@ -80,5 +80,23 @@ button{
     font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
-     
+}
+@media (max-width: 500px){
+    .calculator{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 500px;
+    }
+    button{
+        margin-top: 50px;
+    }
+    h1{
+        margin-bottom: 50px;
+    }
+    input{
+        height: 25px;
+    }
 }
